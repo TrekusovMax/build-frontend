@@ -4,7 +4,6 @@ import { bundle } from './bundle.js'
 
 const output = bundle(process.argv[2])
 
-if (!fs.existsSync('./dist')) {
-  fs.mkdirSync('./dist')
-}
+fs.mkdirSync('./dist', { recursive: true })
 fs.writeFileSync(`./dist/main.js`, output)
+
