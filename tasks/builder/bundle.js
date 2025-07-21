@@ -18,7 +18,8 @@ import { resolve } from '../3/resolve.js'
  * @param {string} entryPath - путь к entry бандлинга
  */
 export function bundle(entryPath) {
-  const entryContent = fs.readFileSync(entryPath, 'utf-8')
+  const entryContent = fs.readFileSync(resolve(entryPath), 'utf-8')
+
   const requireCalls = searchRequireCalls(entryContent).map(
     (modulePath) => ({
       modulePath,
@@ -40,8 +41,9 @@ export function bundle(entryPath) {
     const { parent, modulePath } = requireCalls.pop()
     const resolveModulePath = path.resolve(
       path.dirname(parent),
-      modulePath,
+      resolve(modulePath),
     )
+
     const moduleCode = fs.readFileSync(resolveModulePath, 'utf-8')
     const moduleRequireCalls = searchRequireCalls(moduleCode)
 
@@ -49,7 +51,7 @@ export function bundle(entryPath) {
       requireCalls.push(
         ...moduleRequireCalls.map((requireCallsModulePath) => ({
           modulePath: requireCallsModulePath,
-          parent: resolveModulePath,
+          parent: resolve(resolveModulePath),
         })),
       )
     }
