@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { resolve } from '../3/resolve.js'
 
 /**
  * Примерный алгоритм работы бандлера:
@@ -17,42 +18,46 @@ import path from 'node:path'
  * @param {string} entryPath - путь к entry бандлинга
  */
 export function bundle(entryPath) {
-  const output = []
-  const paths = new Set()
-  paths.add(`./${path.parse(entryPath).base}`)
-  const entryDir = path.dirname(entryPath)
-  let entryCode = fs.readFileSync(entryPath, 'utf-8')
-  let requireCalls = searchRequireCalls(entryCode)
+  const entryContent = fs.readFileSync(entryPath, 'utf-8')
+  const requireCalls = searchRequireCalls(entryContent).map(
+    (modulePath) => ({
+      modulePath,
+      parent: entryPath,
+    }),
+  )
+
+  const modules = []
+  const header = `const modules = {};
+  function require(id) {
+    modules[id](require, modules[id]);
+    return modules[id].exports;
+  }
+  `
+
+  const entry = `(function(require, module){ ${entryContent} })(require, modules)`
 
   while (requireCalls.length) {
-    requireCalls.map((requirePath) => {
-      paths.add(requirePath)
-      entryCode = fs.readFileSync(
-        path.resolve(entryDir, requirePath),
-        'utf-8',
+    const { parent, modulePath } = requireCalls.pop()
+    const resolveModulePath = path.resolve(
+      path.dirname(parent),
+      modulePath,
+    )
+    const moduleCode = fs.readFileSync(resolveModulePath, 'utf-8')
+    const moduleRequireCalls = searchRequireCalls(moduleCode)
+
+    if (moduleRequireCalls.length) {
+      requireCalls.push(
+        ...moduleRequireCalls.map((requireCallsModulePath) => ({
+          modulePath: requireCallsModulePath,
+          parent: resolveModulePath,
+        })),
       )
-      requireCalls = searchRequireCalls(entryCode)
-    })
+    }
+    modules.push(
+      `modules['${modulePath}'] = function(require, module)  { ${moduleCode} };`,
+    )
   }
-  output.push(...paths.values())
-  output.reverse()
-
-  const code = output.map((module) => {
-    const modulePath = path.resolve(entryDir, module)
-
-    let content = fs.readFileSync(modulePath, 'utf8')
-
-    let lines = content.split(/\r?\n/)
-
-    let filtered = lines.filter((line) => !line.includes('require('))
-
-    let newContent = filtered
-      .join('\n')
-      .replace(/\s\n/g, '')
-      .replace(/module\.exports\s*=\s*{[^}]*};?/g, '')
-    return newContent
-  })
-  return code.join('\n')
+  return `${header}\n${modules.join('\n')}\n${entry}`
 }
 /**
  * Функция для поиска в файле вызовов require
