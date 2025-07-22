@@ -2,6 +2,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { resolve } from '../3/resolve.js'
 
+import * as astring from 'astring'
+import { parse } from 'acorn'
+import { transformer } from '../4/transformer.js'
 /**
  * Примерный алгоритм работы бандлера:
  * 1. Прочитать entry и собрать список всех вызовов require
@@ -20,12 +23,10 @@ import { resolve } from '../3/resolve.js'
 export function bundle(entryPath) {
   const entryContent = fs.readFileSync(resolve(entryPath), 'utf-8')
 
-  const requireCalls = searchRequireCalls(entryContent).map(
-    (modulePath) => ({
-      modulePath,
-      parent: entryPath,
-    }),
-  )
+  const requireCalls = searchRequireCalls(entryContent).map((modulePath) => ({
+    modulePath,
+    parent: entryPath,
+  }))
 
   const modules = []
   const header = `const modules = {};
@@ -39,10 +40,7 @@ export function bundle(entryPath) {
 
   while (requireCalls.length) {
     const { parent, modulePath } = requireCalls.pop()
-    const resolveModulePath = path.resolve(
-      path.dirname(parent),
-      resolve(modulePath),
-    )
+    const resolveModulePath = path.resolve(path.dirname(parent), resolve(modulePath))
 
     const moduleCode = fs.readFileSync(resolveModulePath, 'utf-8')
     const moduleRequireCalls = searchRequireCalls(moduleCode)
@@ -55,11 +53,18 @@ export function bundle(entryPath) {
         })),
       )
     }
-    modules.push(
-      `modules['${modulePath}'] = function(require, module)  { ${moduleCode} };`,
-    )
+    modules.push(`modules['${modulePath}'] = function(require, module)  { ${moduleCode} };`)
   }
-  return `${header}\n${modules.join('\n')}\n${entry}`
+
+  const source = `${header}\n${modules.join('\n')}\n${entry}`
+  // get ast from source code
+  const ast = parse(source, { ecmaVersion: 2020, sourceType: 'module' })
+  // transform ast
+  const transformedAST = transformer(ast)
+  // convert ast to source code
+  const result = astring.generate(transformedAST)
+
+  return result
 }
 /**
  * Функция для поиска в файле вызовов require
@@ -67,8 +72,5 @@ export function bundle(entryPath) {
  * @param {string} code
  */
 function searchRequireCalls(code) {
-  return [...code.matchAll(/require\(('|")(.*)('|")\)/g)].map(
-    (item) => item[2],
-  )
+  return [...code.matchAll(/require\(('|")(.*)('|")\)/g)].map((item) => item[2])
 }
-

@@ -19,6 +19,10 @@ export function resolve(importPath, parentPath) {
     }
   }
 
+  if (path.isAbsolute(importPath) && isFileExists(importPath)) {
+    return importPath
+  }
+
   const resolvedPath = importPath.startsWith('..')
     ? path.resolve(path.dirname(parentPath), importPath)
     : path.resolve(rootDir, importPath)
@@ -34,7 +38,7 @@ export function resolve(importPath, parentPath) {
     }
   }
 
-  return null
+  return importPath
 }
 
 function isFileExists(filePath) {
@@ -45,4 +49,3 @@ function isFileExists(filePath) {
     return null
   }
 }
-
