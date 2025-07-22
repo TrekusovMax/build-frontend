@@ -300,7 +300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.51.1":
+"@playwright/test@npm:^1.51.1, @playwright/test@npm:^1.53.2":
   version: 1.53.2
   resolution: "@playwright/test@npm:1.53.2"
   dependencies:
@@ -2052,6 +2052,7 @@ __metadata:
   resolution: "task-1@workspace:tasks/1"
   dependencies:
     "@fastify/static": "npm:^8.1.1"
+    "@playwright/test": "npm:^1.53.2"
     "@types/jquery": "npm:^3.5.32"
     fastify: "npm:^5.2.1"
   languageName: unknown
