@@ -1,0 +1,373 @@
+
+> task-5@1.0.0 start
+> node server.js
+
+(node:19944) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///E:/build-homework/tasks/project/server.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to E:\build-homework\tasks\project\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"level":30,"time":1753303624682,"pid":19944,"hostname":"DESKTOP-NNTC12O","msg":"Server listening at http://[::1]:3000"}
+{"level":30,"time":1753303624684,"pid":19944,"hostname":"DESKTOP-NNTC12O","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1753303625046,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303625047,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303625049,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1","res":{"statusCode":404},"responseTime":3.5693001747131348,"msg":"request completed"}
+{"level":30,"time":1753303625051,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303625051,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303625052,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2","res":{"statusCode":404},"responseTime":0.5484001636505127,"msg":"request completed"}
+{"level":30,"time":1753303626057,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303626059,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303626060,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3","res":{"statusCode":404},"responseTime":1.990800142288208,"msg":"request completed"}
+{"level":30,"time":1753303626063,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-4","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303626065,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-4","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303626066,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-4","res":{"statusCode":404},"responseTime":2.303999900817871,"msg":"request completed"}
+{"level":30,"time":1753303627094,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-5","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303627096,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-5","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303627097,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-5","res":{"statusCode":404},"responseTime":2.4999001026153564,"msg":"request completed"}
+{"level":30,"time":1753303627100,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-6","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303627101,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-6","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303627102,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-6","res":{"statusCode":404},"responseTime":1.6267998218536377,"msg":"request completed"}
+{"level":30,"time":1753303628107,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-7","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303628108,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-7","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303628109,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-7","res":{"statusCode":404},"responseTime":1.9450998306274414,"msg":"request completed"}
+{"level":30,"time":1753303628112,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-8","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303628113,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-8","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303628114,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-8","res":{"statusCode":404},"responseTime":1.9945001602172852,"msg":"request completed"}
+{"level":30,"time":1753303629119,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-9","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303629120,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-9","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303629120,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-9","res":{"statusCode":404},"responseTime":1.3858001232147217,"msg":"request completed"}
+{"level":30,"time":1753303629121,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-a","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303629121,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-a","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303629122,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-a","res":{"statusCode":404},"responseTime":0.6136000156402588,"msg":"request completed"}
+{"level":30,"time":1753303630131,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-b","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303630132,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-b","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303630132,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-b","res":{"statusCode":404},"responseTime":1.413599967956543,"msg":"request completed"}
+{"level":30,"time":1753303630134,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-c","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303630135,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-c","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303630136,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-c","res":{"statusCode":404},"responseTime":1.3474998474121094,"msg":"request completed"}
+{"level":30,"time":1753303631152,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-d","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303631152,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-d","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303631153,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-d","res":{"statusCode":404},"responseTime":1.3169000148773193,"msg":"request completed"}
+{"level":30,"time":1753303631155,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-e","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303631156,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-e","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303631157,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-e","res":{"statusCode":404},"responseTime":1.6387999057769775,"msg":"request completed"}
+{"level":30,"time":1753303632172,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-f","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303632173,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-f","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303632174,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-f","res":{"statusCode":404},"responseTime":1.4467999935150146,"msg":"request completed"}
+{"level":30,"time":1753303632175,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-g","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303632175,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-g","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303632176,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-g","res":{"statusCode":404},"responseTime":0.283599853515625,"msg":"request completed"}
+{"level":30,"time":1753303633193,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-h","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303633194,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-h","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303633195,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-h","res":{"statusCode":404},"responseTime":1.9815001487731934,"msg":"request completed"}
+{"level":30,"time":1753303633197,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-i","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303633198,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-i","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303633198,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-i","res":{"statusCode":404},"responseTime":0.8469998836517334,"msg":"request completed"}
+{"level":30,"time":1753303634215,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-j","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303634216,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-j","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303634217,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-j","res":{"statusCode":404},"responseTime":1.9381999969482422,"msg":"request completed"}
+{"level":30,"time":1753303634218,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-k","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303634219,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-k","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303634220,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-k","res":{"statusCode":404},"responseTime":1.479599952697754,"msg":"request completed"}
+{"level":30,"time":1753303635230,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-l","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303635231,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-l","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303635231,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-l","res":{"statusCode":404},"responseTime":1.3077998161315918,"msg":"request completed"}
+{"level":30,"time":1753303635233,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-m","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303635234,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-m","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303635235,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-m","res":{"statusCode":404},"responseTime":1.3422999382019043,"msg":"request completed"}
+{"level":30,"time":1753303636248,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-n","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303636249,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-n","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303636249,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-n","res":{"statusCode":404},"responseTime":1.3431000709533691,"msg":"request completed"}
+{"level":30,"time":1753303636251,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-o","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303636252,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-o","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303636253,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-o","res":{"statusCode":404},"responseTime":1.307999849319458,"msg":"request completed"}
+{"level":30,"time":1753303637268,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-p","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303637269,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-p","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303637270,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-p","res":{"statusCode":404},"responseTime":1.2955000400543213,"msg":"request completed"}
+{"level":30,"time":1753303637272,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-q","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303637273,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-q","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303637273,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-q","res":{"statusCode":404},"responseTime":1.3087999820709229,"msg":"request completed"}
+{"level":30,"time":1753303638275,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-r","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303638276,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-r","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303638277,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-r","res":{"statusCode":404},"responseTime":1.426499843597412,"msg":"request completed"}
+{"level":30,"time":1753303638279,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-s","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303638280,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-s","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303638280,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-s","res":{"statusCode":404},"responseTime":1.411600112915039,"msg":"request completed"}
+{"level":30,"time":1753303639290,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-t","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303639290,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-t","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303639291,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-t","res":{"statusCode":404},"responseTime":1.326200008392334,"msg":"request completed"}
+{"level":30,"time":1753303639293,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-u","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303639294,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-u","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303639294,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-u","res":{"statusCode":404},"responseTime":1.1275999546051025,"msg":"request completed"}
+{"level":30,"time":1753303640311,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-v","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303640312,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-v","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303640313,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-v","res":{"statusCode":404},"responseTime":1.46589994430542,"msg":"request completed"}
+{"level":30,"time":1753303640314,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-w","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303640315,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-w","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303640316,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-w","res":{"statusCode":404},"responseTime":1.3270001411437988,"msg":"request completed"}
+{"level":30,"time":1753303641321,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-x","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303641322,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-x","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303641323,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-x","res":{"statusCode":404},"responseTime":1.557800054550171,"msg":"request completed"}
+{"level":30,"time":1753303641324,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-y","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303641324,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-y","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303641325,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-y","res":{"statusCode":404},"responseTime":0.3640000820159912,"msg":"request completed"}
+{"level":30,"time":1753303642339,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-z","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303642339,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-z","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303642340,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-z","res":{"statusCode":404},"responseTime":0.577200174331665,"msg":"request completed"}
+{"level":30,"time":1753303642340,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-10","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303642341,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-10","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303642341,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-10","res":{"statusCode":404},"responseTime":0.3691999912261963,"msg":"request completed"}
+{"level":30,"time":1753303643343,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-11","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303643344,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-11","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303643345,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-11","res":{"statusCode":404},"responseTime":1.2902002334594727,"msg":"request completed"}
+{"level":30,"time":1753303643347,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-12","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303643348,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-12","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303643348,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-12","res":{"statusCode":404},"responseTime":1.3266000747680664,"msg":"request completed"}
+{"level":30,"time":1753303644357,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-13","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303644358,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-13","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303644359,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-13","res":{"statusCode":404},"responseTime":1.0992000102996826,"msg":"request completed"}
+{"level":30,"time":1753303644360,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-14","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303644360,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-14","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303644361,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-14","res":{"statusCode":404},"responseTime":0.7709000110626221,"msg":"request completed"}
+{"level":30,"time":1753303645377,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-15","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303645378,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-15","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303645379,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-15","res":{"statusCode":404},"responseTime":1.2915000915527344,"msg":"request completed"}
+{"level":30,"time":1753303645380,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-16","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303645381,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-16","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303645382,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-16","res":{"statusCode":404},"responseTime":1.3047001361846924,"msg":"request completed"}
+{"level":30,"time":1753303646389,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-17","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303646389,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-17","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303646390,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-17","res":{"statusCode":404},"responseTime":1.07669997215271,"msg":"request completed"}
+{"level":30,"time":1753303646391,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-18","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303646392,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-18","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303646392,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-18","res":{"statusCode":404},"responseTime":0.8983001708984375,"msg":"request completed"}
+{"level":30,"time":1753303647408,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-19","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303647409,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-19","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303647409,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-19","res":{"statusCode":404},"responseTime":1.282599925994873,"msg":"request completed"}
+{"level":30,"time":1753303647411,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1a","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303647413,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1a","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303647413,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1a","res":{"statusCode":404},"responseTime":1.7950999736785889,"msg":"request completed"}
+{"level":30,"time":1753303648425,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1b","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303648426,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1b","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303648427,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1b","res":{"statusCode":404},"responseTime":1.272900104522705,"msg":"request completed"}
+{"level":30,"time":1753303648429,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1c","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303648430,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1c","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303648430,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1c","res":{"statusCode":404},"responseTime":1.2562999725341797,"msg":"request completed"}
+{"level":30,"time":1753303649440,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1d","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303649440,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1d","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303649440,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1d","res":{"statusCode":404},"responseTime":0.33459997177124023,"msg":"request completed"}
+{"level":30,"time":1753303649441,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1e","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303649441,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1e","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303649441,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1e","res":{"statusCode":404},"responseTime":0.18519997596740723,"msg":"request completed"}
+{"level":30,"time":1753303650451,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1f","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303650452,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1f","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303650452,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1f","res":{"statusCode":404},"responseTime":0.8273999691009521,"msg":"request completed"}
+{"level":30,"time":1753303650453,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1g","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303650454,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1g","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303650454,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1g","res":{"statusCode":404},"responseTime":0.6570000648498535,"msg":"request completed"}
+{"level":30,"time":1753303651465,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1h","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303651466,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1h","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303651466,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1h","res":{"statusCode":404},"responseTime":1.1238000392913818,"msg":"request completed"}
+{"level":30,"time":1753303651468,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1i","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303651469,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1i","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303651469,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1i","res":{"statusCode":404},"responseTime":0.8454000949859619,"msg":"request completed"}
+{"level":30,"time":1753303652476,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1j","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303652477,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1j","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303652478,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1j","res":{"statusCode":404},"responseTime":1.5074999332427979,"msg":"request completed"}
+{"level":30,"time":1753303652479,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1k","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303652480,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1k","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303652480,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1k","res":{"statusCode":404},"responseTime":0.7956998348236084,"msg":"request completed"}
+{"level":30,"time":1753303653489,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1l","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303653489,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1l","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303653490,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1l","res":{"statusCode":404},"responseTime":0.34109997749328613,"msg":"request completed"}
+{"level":30,"time":1753303653490,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1m","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303653490,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1m","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303653490,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1m","res":{"statusCode":404},"responseTime":0.2209000587463379,"msg":"request completed"}
+{"level":30,"time":1753303654509,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1n","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303654510,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1n","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303654511,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1n","res":{"statusCode":404},"responseTime":1.2600998878479004,"msg":"request completed"}
+{"level":30,"time":1753303654513,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1o","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303654513,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1o","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303654513,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1o","res":{"statusCode":404},"responseTime":0.7200000286102295,"msg":"request completed"}
+{"level":30,"time":1753303655520,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1p","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303655520,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1p","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303655521,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1p","res":{"statusCode":404},"responseTime":0.6874001026153564,"msg":"request completed"}
+{"level":30,"time":1753303655521,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1q","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303655522,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1q","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303655522,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1q","res":{"statusCode":404},"responseTime":0.7151000499725342,"msg":"request completed"}
+{"level":30,"time":1753303656526,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1r","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303656526,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1r","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303656527,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1r","res":{"statusCode":404},"responseTime":0.3278999328613281,"msg":"request completed"}
+{"level":30,"time":1753303656527,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1s","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303656527,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1s","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303656527,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1s","res":{"statusCode":404},"responseTime":0.20760011672973633,"msg":"request completed"}
+{"level":30,"time":1753303657542,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1t","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303657543,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1t","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303657544,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1t","res":{"statusCode":404},"responseTime":1.291100025177002,"msg":"request completed"}
+{"level":30,"time":1753303657546,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1u","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303657547,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1u","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303657547,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1u","res":{"statusCode":404},"responseTime":1.3166000843048096,"msg":"request completed"}
+{"level":30,"time":1753303658552,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1v","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303658552,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1v","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303658552,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1v","res":{"statusCode":404},"responseTime":0.3245999813079834,"msg":"request completed"}
+{"level":30,"time":1753303658553,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1w","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303658553,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1w","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303658553,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1w","res":{"statusCode":404},"responseTime":0.18919992446899414,"msg":"request completed"}
+{"level":30,"time":1753303659564,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1x","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303659564,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1x","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303659565,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1x","res":{"statusCode":404},"responseTime":0.875,"msg":"request completed"}
+{"level":30,"time":1753303659565,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1y","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303659566,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1y","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303659566,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1y","res":{"statusCode":404},"responseTime":0.38160014152526855,"msg":"request completed"}
+{"level":30,"time":1753303660577,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1z","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303660578,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1z","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303660579,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-1z","res":{"statusCode":404},"responseTime":1.4215998649597168,"msg":"request completed"}
+{"level":30,"time":1753303660581,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-20","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303660581,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-20","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303660582,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-20","res":{"statusCode":404},"responseTime":1.2757999897003174,"msg":"request completed"}
+{"level":30,"time":1753303661597,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-21","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303661598,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-21","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303661598,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-21","res":{"statusCode":404},"responseTime":1.2562999725341797,"msg":"request completed"}
+{"level":30,"time":1753303661600,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-22","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303661601,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-22","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303661602,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-22","res":{"statusCode":404},"responseTime":1.6161000728607178,"msg":"request completed"}
+{"level":30,"time":1753303662605,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-23","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303662606,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-23","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303662606,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-23","res":{"statusCode":404},"responseTime":1.2344999313354492,"msg":"request completed"}
+{"level":30,"time":1753303662608,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-24","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303662608,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-24","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303662608,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-24","res":{"statusCode":404},"responseTime":0.35159993171691895,"msg":"request completed"}
+{"level":30,"time":1753303663613,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-25","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303663613,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-25","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303663613,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-25","res":{"statusCode":404},"responseTime":0.32270002365112305,"msg":"request completed"}
+{"level":30,"time":1753303663613,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-26","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303663614,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-26","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303663614,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-26","res":{"statusCode":404},"responseTime":0.21149992942810059,"msg":"request completed"}
+{"level":30,"time":1753303664623,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-27","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303664624,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-27","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303664625,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-27","res":{"statusCode":404},"responseTime":1.239300012588501,"msg":"request completed"}
+{"level":30,"time":1753303664627,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-28","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303664627,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-28","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303664627,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-28","res":{"statusCode":404},"responseTime":0.6297001838684082,"msg":"request completed"}
+{"level":30,"time":1753303665628,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-29","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303665628,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-29","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303665628,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-29","res":{"statusCode":404},"responseTime":0.39390015602111816,"msg":"request completed"}
+{"level":30,"time":1753303665629,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2a","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303665629,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2a","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303665629,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2a","res":{"statusCode":404},"responseTime":0.2868001461029053,"msg":"request completed"}
+{"level":30,"time":1753303666642,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2b","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303666643,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2b","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303666644,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2b","res":{"statusCode":404},"responseTime":1.0838000774383545,"msg":"request completed"}
+{"level":30,"time":1753303666645,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2c","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303666646,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2c","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303666646,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2c","res":{"statusCode":404},"responseTime":0.6326999664306641,"msg":"request completed"}
+{"level":30,"time":1753303667652,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2d","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303667652,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2d","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303667652,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2d","res":{"statusCode":404},"responseTime":0.5218000411987305,"msg":"request completed"}
+{"level":30,"time":1753303667653,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2e","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303667653,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2e","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303667653,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2e","res":{"statusCode":404},"responseTime":0.2286999225616455,"msg":"request completed"}
+{"level":30,"time":1753303668664,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2f","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303668664,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2f","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303668665,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2f","res":{"statusCode":404},"responseTime":0.32829999923706055,"msg":"request completed"}
+{"level":30,"time":1753303668665,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2g","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303668665,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2g","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303668665,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2g","res":{"statusCode":404},"responseTime":0.18740010261535645,"msg":"request completed"}
+{"level":30,"time":1753303669670,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2h","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303669670,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2h","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303669670,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2h","res":{"statusCode":404},"responseTime":0.35739994049072266,"msg":"request completed"}
+{"level":30,"time":1753303669670,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2i","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303669670,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2i","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303669671,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2i","res":{"statusCode":404},"responseTime":0.19530010223388672,"msg":"request completed"}
+{"level":30,"time":1753303670682,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2j","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303670682,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2j","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303670683,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2j","res":{"statusCode":404},"responseTime":1.4005999565124512,"msg":"request completed"}
+{"level":30,"time":1753303670685,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2k","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303670686,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2k","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303670686,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2k","res":{"statusCode":404},"responseTime":0.9405999183654785,"msg":"request completed"}
+{"level":30,"time":1753303670710,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2l","req":{"method":"GET","url":"/webpack/index.html","host":"localhost:3000","remoteAddress":"::1","remotePort":51826},"msg":"incoming request"}
+{"level":30,"time":1753303670712,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2l","res":{"statusCode":304},"responseTime":2.2596001625061035,"msg":"request completed"}
+{"level":30,"time":1753303670740,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2m","req":{"method":"GET","url":"/webpack/src/vite.tsx","host":"localhost:3000","remoteAddress":"::1","remotePort":51826},"msg":"incoming request"}
+{"level":30,"time":1753303670740,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2n","req":{"method":"GET","url":"/webpack/main.js","host":"localhost:3000","remoteAddress":"::1","remotePort":51827},"msg":"incoming request"}
+{"level":30,"time":1753303670741,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2m","msg":"Route GET:/webpack/src/vite.tsx not found"}
+{"level":30,"time":1753303670741,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2m","res":{"statusCode":404},"responseTime":0.7757000923156738,"msg":"request completed"}
+{"level":30,"time":1753303670741,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2n","res":{"statusCode":304},"responseTime":1.0670998096466064,"msg":"request completed"}
+{"level":30,"time":1753303670986,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2o","req":{"method":"GET","url":"/webpack/src_data_ts.js","host":"localhost:3000","remoteAddress":"::1","remotePort":51827},"msg":"incoming request"}
+{"level":30,"time":1753303670987,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2o","res":{"statusCode":304},"responseTime":0.7590999603271484,"msg":"request completed"}
+{"level":30,"time":1753303671699,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2p","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303671700,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2p","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303671701,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2p","res":{"statusCode":404},"responseTime":1.986799955368042,"msg":"request completed"}
+{"level":30,"time":1753303671702,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2q","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303671703,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2q","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303671703,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2q","res":{"statusCode":404},"responseTime":0.3747999668121338,"msg":"request completed"}
+{"level":30,"time":1753303672711,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2r","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303672712,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2r","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303672712,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2r","res":{"statusCode":404},"responseTime":1.205199956893921,"msg":"request completed"}
+{"level":30,"time":1753303672714,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2s","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303672714,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2s","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303672715,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2s","res":{"statusCode":404},"responseTime":0.7108001708984375,"msg":"request completed"}
+{"level":30,"time":1753303673724,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2t","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303673724,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2t","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303673725,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2t","res":{"statusCode":404},"responseTime":0.6423001289367676,"msg":"request completed"}
+{"level":30,"time":1753303673725,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2u","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303673725,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2u","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303673726,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2u","res":{"statusCode":404},"responseTime":0.34579992294311523,"msg":"request completed"}
+{"level":30,"time":1753303674737,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2v","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303674738,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2v","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303674738,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2v","res":{"statusCode":404},"responseTime":1.2570998668670654,"msg":"request completed"}
+{"level":30,"time":1753303674740,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2w","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303674741,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2w","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303674742,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2w","res":{"statusCode":404},"responseTime":1.2616000175476074,"msg":"request completed"}
+{"level":30,"time":1753303675758,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2x","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303675759,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2x","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303675759,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2x","res":{"statusCode":404},"responseTime":1.2415001392364502,"msg":"request completed"}
+{"level":30,"time":1753303675761,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2y","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303675762,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2y","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303675762,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2y","res":{"statusCode":404},"responseTime":1.2680997848510742,"msg":"request completed"}
+{"level":30,"time":1753303676776,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2z","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303676777,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2z","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303676778,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-2z","res":{"statusCode":404},"responseTime":1.2543001174926758,"msg":"request completed"}
+{"level":30,"time":1753303676780,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-30","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303676780,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-30","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303676781,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-30","res":{"statusCode":404},"responseTime":1.2518000602722168,"msg":"request completed"}
+{"level":30,"time":1753303677794,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-31","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303677795,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-31","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303677795,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-31","res":{"statusCode":404},"responseTime":1.2313001155853271,"msg":"request completed"}
+{"level":30,"time":1753303677797,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-32","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303677798,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-32","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303677798,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-32","res":{"statusCode":404},"responseTime":0.7058999538421631,"msg":"request completed"}
+{"level":30,"time":1753303678805,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-33","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303678806,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-33","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303678806,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-33","res":{"statusCode":404},"responseTime":1.3101000785827637,"msg":"request completed"}
+{"level":30,"time":1753303678808,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-34","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303678809,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-34","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303678810,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-34","res":{"statusCode":404},"responseTime":1.2516999244689941,"msg":"request completed"}
+{"level":30,"time":1753303679818,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-35","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303679819,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-35","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303679819,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-35","res":{"statusCode":404},"responseTime":1.396899938583374,"msg":"request completed"}
+{"level":30,"time":1753303679821,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-36","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303679821,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-36","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303679821,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-36","res":{"statusCode":404},"responseTime":0.3161001205444336,"msg":"request completed"}
+{"level":30,"time":1753303680836,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-37","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303680837,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-37","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303680837,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-37","res":{"statusCode":404},"responseTime":1.2365999221801758,"msg":"request completed"}
+{"level":30,"time":1753303680839,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-38","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303680840,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-38","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303680840,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-38","res":{"statusCode":404},"responseTime":1.1695001125335693,"msg":"request completed"}
+{"level":30,"time":1753303681844,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-39","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303681844,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-39","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303681845,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-39","res":{"statusCode":404},"responseTime":1.082899808883667,"msg":"request completed"}
+{"level":30,"time":1753303681847,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3a","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303681847,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3a","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303681848,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3a","res":{"statusCode":404},"responseTime":0.7453000545501709,"msg":"request completed"}
+{"level":30,"time":1753303682860,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3b","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303682861,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3b","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303682861,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3b","res":{"statusCode":404},"responseTime":1.0815999507904053,"msg":"request completed"}
+{"level":30,"time":1753303682862,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3c","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303682863,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3c","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303682863,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3c","res":{"statusCode":404},"responseTime":0.7054998874664307,"msg":"request completed"}
+{"level":30,"time":1753303683875,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3d","req":{"method":"GET","url":"/","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303683876,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3d","msg":"Route GET:/ not found"}
+{"level":30,"time":1753303683876,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3d","res":{"statusCode":404},"responseTime":1.2065999507904053,"msg":"request completed"}
+{"level":30,"time":1753303683878,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3e","req":{"method":"GET","url":"/index.html","host":"127.0.0.1:3000","remoteAddress":"127.0.0.1","remotePort":51802},"msg":"incoming request"}
+{"level":30,"time":1753303683879,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3e","msg":"Route GET:/index.html not found"}
+{"level":30,"time":1753303683879,"pid":19944,"hostname":"DESKTOP-NNTC12O","reqId":"req-3e","res":{"statusCode":404},"responseTime":0.976099967956543,"msg":"request completed"}

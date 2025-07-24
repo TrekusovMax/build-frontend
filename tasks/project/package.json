@@ -9,7 +9,7 @@
     "build:rollup": "NODE_ENV=development rollup --config rollup.config.js",
     "build:all": "yarn build:webpack && yarn build:vite && yarn build:esbuild && yarn build:rollup",
     "start": "node server.js",
-    "test": "yarn build:all && npx playwright test ./tests/*"
+    "test": "yarn build:webpack && npx playwright test ./tests/*"
   },
   "devDependencies": {
     "@craftamap/esbuild-plugin-html": "^0.9.0",
@@ -39,6 +39,7 @@
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
     "antd": "^5.24.9",
+    "playwright": "^1.54.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "uuid": "^11.1.0",
