@@ -1,18 +1,19 @@
 // @ts-check
-import { test, expect } from "@playwright/test";
+import { test, expect } from '@playwright/test'
 
-const url = "http://localhost:3000";
+const url = 'http://localhost:3000'
 
-test("page successfully rendered", async ({ page }) => {
-  await page.goto(url);
+test('page successfully rendered', async ({ page }) => {
+  await page.goto(url)
 
-  const bundleJsResponse = await fetch(`${url}/entry.js`);
-  const bundleContent = await bundleJsResponse.text();
+  const bundleJsResponse = await fetch(`${url}/entry.js`)
+  const bundleContent = await bundleJsResponse.text()
 
-  expect(/(\s\s)+/.test(bundleContent)).toBeFalsy();
-  expect(/\n/.test(bundleContent)).toBeFalsy();
+  expect(/(\s\s)+/.test(bundleContent)).toBeFalsy()
+  expect(/\n/.test(bundleContent)).toBeFalsy()
 
-  await page.waitForSelector('.test');
-  const element = await page.locator(".test");
-  await expect(element).toHaveText("hello world");
-});
+  await page.waitForSelector('.test')
+  const element = await page.locator('.test')
+  await expect(element).toHaveText('hello world')
+})
+
