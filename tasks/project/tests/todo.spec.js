@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test'
 
 const baseUrl = 'http://localhost:3000'
 
-const bundlers = ['webpack']
+const bundlers = ['webpack', 'rollup', 'esbuild', 'vite']
 
 bundlers.forEach((bundlerName) => {
   test(`${bundlerName} todo render`, async ({ page }) => {

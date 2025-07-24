@@ -39,7 +39,10 @@
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
     "antd": "^5.24.9",
+<<<<<<< HEAD
     "playwright": "^1.54.1",
+=======
+>>>>>>> 44bfde53d62e81a65bae450318078d8de06c91f7
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "uuid": "^11.1.0",
