@@ -27,14 +27,24 @@ const config: Configuration = {
   module: {
     rules: [
       {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-      },
-      {
         test: /\.(ts|tsx)$/,
-        loader: 'ts-loader',
-
         exclude: /node_modules/,
+        use: {
+          loader: 'swc-loader',
+          options: {
+            jsc: {
+              parser: {
+                syntax: 'typescript',
+                tsx: true,
+              },
+              transform: {
+                react: {
+                  runtime: 'automatic',
+                },
+              },
+            },
+          },
+        },
       },
     ],
   },
@@ -53,6 +63,9 @@ const config: Configuration = {
 </html>`,
     }),
   ],
+  experiments: {
+    css: true,
+  },
 }
 export default config
 

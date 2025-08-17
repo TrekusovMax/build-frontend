@@ -13,7 +13,7 @@ export default {
   input: './src/index.tsx',
   output: {
     dir: 'dist/rollup',
-    format: 'esm',
+    format: 'iife',
   },
 
   plugins: [

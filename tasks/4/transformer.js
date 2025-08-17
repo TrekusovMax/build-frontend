@@ -4,10 +4,13 @@ import { walk } from 'estree-walker'
 export function transformer(ast) {
   walk(ast, {
     enter(node) {
-      if (node.kind === 'const' || node.kind === 'let') {
-        node.kind = 'var'
+      if (node.type === 'VariableDeclaration') {
+        if (node.kind === 'const' || node.kind === 'let') {
+          node.kind = 'var'
+        }
       }
     },
   })
   return ast
 }
+

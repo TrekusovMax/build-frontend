@@ -10,16 +10,7 @@ export default defineConfig({
     emptyOutDir: true,
     assetsDir: 'assets',
   },
-  base: './',
-  resolve: {
-    alias: {
-      components: path.resolve('./src/components'),
-      containers: path.resolve('./src/containers'),
-      routes: path.resolve('./src/routes'),
-      store: path.resolve('./src/store'),
-    },
-    extensions: ['.ts', '.tsx', '.js', '.jsx'],
-  },
+  base: '/vite/',
 
   plugins: [tsconfigPaths()],
 
