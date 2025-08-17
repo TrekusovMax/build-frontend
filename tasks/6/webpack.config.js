@@ -1,7 +1,7 @@
 import path from 'node:path'
 
 export default {
-  devtools: false,
+  devtool: false,
   mode: 'development',
   entry: {
     entry: './src/entry.js',
